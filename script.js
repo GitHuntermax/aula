@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   // Validação simples
   if (username === 'admin' && password === '1234') {
-    window.location.href = 'portfolio.html';
+    window.location.href = './portfolio.html';
   } else {
     document.getElementById('message').innerText = 'Usuário ou senha incorretos.';
   }
